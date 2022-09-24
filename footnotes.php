@@ -43,7 +43,7 @@ class swas_wp_footnotes {
 	/**
 	 * Constructor.
 	 */
-	function swas_wp_footnotes() {		
+	function __construct() {		
 	
 		// Define the implemented option styles		
 		$this->styles = array(
@@ -171,7 +171,7 @@ class swas_wp_footnotes {
 		}
 		
 		// Create 'em
-		for ($i=0; $i<count($identifiers); $i++){
+		for ($i=0; $i < count($identifiers); $i++){
 			// Look for ref: and replace in identifiers array.
 			if (substr($identifiers[$i][2],0,4) == 'ref:'){
 				$ref = (int)substr($identifiers[$i][2],4);
@@ -197,7 +197,8 @@ class swas_wp_footnotes {
 				// Add footnote and record the key
 				$identifiers[$i]['use_footnote'] = count($footnotes);
 				$footnotes[$identifiers[$i]['use_footnote']]['text'] = $identifiers[$i]['text'];
-				$footnotes[$identifiers[$i]['use_footnote']]['symbol'] = $identifiers[$i]['symbol'];
+				// FIXME: This is unused.
+				//$footnotes[$identifiers[$i]['use_footnote']]['symbol'] = $identifiers[$i]['symbol'];
 				$footnotes[$identifiers[$i]['use_footnote']]['identifiers'][] = $i;
 			}
 		}
