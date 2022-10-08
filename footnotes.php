@@ -3,6 +3,7 @@
  * Plugin Name: wp-footnotes
  * Plugin URI: https://github.com/ledyba/wp-footnotes
  * Version: 5.0.0
+ * License: AGPLv3 or later
  * Description: Allows a user to easily add footnotes to a post.
  * Author: Simon Elvery + Kaede Fujisaki
  * Author URI: https://7io.org/
