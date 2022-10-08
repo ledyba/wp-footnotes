@@ -2,9 +2,9 @@
 /*
 Plugin Name: WP-Footnotes
 Plugin URI: http://www.elvery.net/drzax/more-things/wordpress-footnotes-plugin/
-Version: 4.2.2
+Version: 5.0.0
 Description: Allows a user to easily add footnotes to a post.
-Author: Simon Elvery
+Author: Simon Elvery + Kaede Fujisaki
 Author URI: http://www.elvery.net/drzax/
 */
 
