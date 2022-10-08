@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: wp-footnotes
-Plugin URI: https://github.com/ledyba/wp-footnotes
-Version: 5.0.0
-Description: Allows a user to easily add footnotes to a post.
-Author: Simon Elvery + Kaede Fujisaki
-Author URI: https://7io.org/
-*/
+ * Plugin Name: wp-footnotes
+ * Plugin URI: https://github.com/ledyba/wp-footnotes
+ * Version: 5.0.0
+ * Description: Allows a user to easily add footnotes to a post.
+ * Author: Simon Elvery + Kaede Fujisaki
+ * Author URI: https://7io.org/
+ */
 
 /*
  * This file is part of WP-Footnotes a plugin for WordPress
